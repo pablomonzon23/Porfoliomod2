@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;}
+
+.logo img{
+    width: 200px;
+    height: 80px;
+
+}
+.banner img{
+    width: 100%;
+    height: 300px;
+    border: solid black;
+
+}
+.cara img{
+    margin-left: 150px;
+    margin-top: -80px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    
+}
+.info-personal{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: #4158D0;
+}
+.info-personal h3{
+    text-decoration-line: underline;
+    font-family: 'Anek Telugu', sans-serif;
+   
+}
+.personal{
+   
+    width: 200px;
+}
+.acerca{
+    width: 800px;
+  
+}
+.informacion-personal{
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+  
+}
+.informacion-personal h3{
+    text-decoration-line: underline;
+    font-family:  'Anek Telugu', sans-serif;
+
+}
+p{
+    margin-left: 200px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+.informacion-personal a{
+    margin: 300px;
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+}
+
+.boton-edit img{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+}
+.boton-eliminar img{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+
+}
+.habilidades img{
+    width: 130px;
+    height: 130px;
+    margin-left: 150px;
+}
+.acerca btn btn-primary{
+  color: black;
+    
+}
+.formacion{
+    border: black;
+}
